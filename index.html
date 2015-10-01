@@ -6,28 +6,33 @@
   </title>
 
   <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
 
-      <div class="row" style="border: 2px solid grey;">
-        <div class="col-sm-6 col-md-3">
-          <h1>logo</h1>
+      <div class="row">
+        <div class="col-xs-9 col-sm-5 col-md-3 main-logo">
+          <h1>TripBookr</h1>
         </div>
 
-        <div class="col-sm-6 col-md-4 hidden-xs">
-          <h5>Searching Maldives</h5>
+        <div class="col-sm-6 col-md-3 hidden-xs search-bar">
+          <h4><i class="fa fa-search "></i>&nbsp; Maldives</h4>
         </div>
 
-        <div class="col-md-5 hidden-xs hidden-sm">
-          <ul class="list-inline">
-            <li>Tickets and Tours</li>
-            <li>Favorites</li>
-            <li>Destinations</li>
-            <li>Sign in</li>                
+        <div class="col-md-6 hidden-xs hidden-sm desktop-nav">
+          <ul class="list-inline pull-right">
+            <li><i class="fa fa-ticket fa-fw"></i><a href="#"><h5>Tickets and Tours</h5></a></li>
+            <li><i class="fa fa-heart fa-fw"></i><a href="#"><h5>Favorites</h5></a></li>
+            <li><i class="fa fa-home fa-fw"></i><a href="#"><h5>Destinations</h5></a></li>
+            <li><i class="fa fa-user fa-fw"></i><a href="#"><h5>Sign In</h5></a></li>                
           </ul>
+        </div>
+
+        <div class="col-xs-3 col-sm-1 visible-xs visible-sm mobile-menu text-center">
+           <a href="#"><i class="fa fa-bars fa-3x"></i></a>
         </div>
       </div>
 
