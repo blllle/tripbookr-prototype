@@ -17,7 +17,7 @@ body {
 // main nav styling
 
 .main-logo {
-  border-right: 1px solid lightgrey;
+  .border-right;
   h1 {
     margin: 15px 0px;
   }
@@ -57,11 +57,13 @@ body {
 
 .search {
   border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;  
+  border-bottom: 1px solid lightgrey;
+
   .breadcrumb {
     padding: 20px 0px;
     margin-bottom: 0px;
     background-color: @navbackground;
+
     a {
       color: @darkgrey;
       border-bottom: 1px dotted @darkgrey;
@@ -71,6 +73,7 @@ body {
         border-bottom: 1px dotted @maingreen;
       }
     }
+
     .active span {
       color: black;
     }
@@ -91,7 +94,7 @@ body {
 }
 
 .filter {
-  border-right: 1px solid lightgrey;
+ .border-right;
   background-color: lightgrey;
   padding: 13px;
 
@@ -106,7 +109,7 @@ body {
 }
 
 .tagline {
-  border-right: 1px solid lightgrey;
+  .border-right;
     p {
     margin: 12px 0px;
   }
@@ -124,11 +127,15 @@ body {
 // results 
 
 .result-listing {
-  border-right: 1px solid lightgrey;
+  .border-right;
 }
 
 .hotel-listing {
   padding: 50px 15px 50px;
+  &:hover {
+    background-color: lightgrey;
+  }
+
   img {
     width: 100%;
   }

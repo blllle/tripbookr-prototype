@@ -6866,6 +6866,9 @@ body {
 .hotel-listing {
   padding: 50px 15px 50px;
 }
+.hotel-listing:hover {
+  background-color: lightgrey;
+}
 .hotel-listing img {
   width: 100%;
 }
