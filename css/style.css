@@ -6765,7 +6765,10 @@ button.close {
   }
 }
 body {
-  padding-top: 175 px;
+  padding-top: 175px;
+}
+.border-right {
+  border-right: 1px solid lightgrey;
 }
 .main-logo {
   border-right: 1px solid lightgrey;
@@ -6830,7 +6833,7 @@ body {
 .filter {
   border-right: 1px solid lightgrey;
   background-color: lightgrey;
-  padding: 12px;
+  padding: 13px;
 }
 .filter h4 {
   margin: 0px;
@@ -6856,4 +6859,13 @@ body {
   color: #49494a;
   text-decoration: none;
   cursor: pointer;
+}
+.result-listing {
+  border-right: 1px solid lightgrey;
+}
+.hotel-listing {
+  padding: 50px 15px 50px;
+}
+.hotel-listing img {
+  width: 100%;
 }
