@@ -6765,7 +6765,7 @@ button.close {
   }
 }
 body {
-  padding-top: 150px;
+  padding-top: 175px;
 }
 .main-logo {
   border-right: 1px solid lightgrey;
@@ -6796,24 +6796,63 @@ body {
 .mobile-menu a i {
   margin-top: 15px;
 }
-.search-results {
+.search {
   border-top: 1px solid lightgrey;
-  padding-top: 5px;
+  border-bottom: 1px solid lightgrey;
 }
-.search-results .breadcrumb {
+.search .breadcrumb {
   padding: 20px 0px;
   margin-bottom: 0px;
   background-color: #f8f8f8;
 }
-.search-results .breadcrumb a {
+.search .breadcrumb a {
   color: #49494a;
-  border-bottom: 1px solid black;
+  border-bottom: 1px dotted #49494a;
 }
-.search-results .breadcrumb a:hover {
-  color: #22cb96;
+.search .breadcrumb a:hover {
+  color: #0085a3;
   text-decoration: none;
-  border-bottom: 1px solid #22cb96;
+  border-bottom: 1px dotted #0085a3;
 }
-.search-results .breadcrumb .active span {
+.search .breadcrumb .active span {
   color: black;
+}
+.search .results {
+  padding-top: 20px;
+}
+.search .results h5 {
+  margin: 0px;
+}
+.search .results h5 span {
+  color: #0085a3;
+  font-size: 20px;
+}
+.filter {
+  border-right: 1px solid lightgrey;
+  background-color: lightgrey;
+}
+.filter h4 {
+  margin: 13px 0px;
+  cursor: pointer;
+}
+.filter h4 a {
+  color: #49494a;
+  text-decoration: none;
+}
+.tagline {
+  border-right: 1px solid lightgrey;
+}
+.tagline p {
+  margin: 12px 0px;
+}
+.sort-down {
+  border-right: 1px solid lightgrey;
+}
+.sort-down p {
+  margin: 12px 0px;
+}
+.sort-down a {
+  color: #49494a;
+  text-decoration: none;
+  cursor: pointer;
 }
