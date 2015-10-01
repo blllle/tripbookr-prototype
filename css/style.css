@@ -6768,7 +6768,7 @@ body {
   padding-top: 150px;
 }
 .main-logo {
-  border-right: 1px solid grey;
+  border-right: 1px solid lightgrey;
 }
 .main-logo h1 {
   margin: 15px 0px;
@@ -6782,7 +6782,10 @@ body {
 .desktop-nav li {
   text-align: center;
   padding: 7px 15px;
-  border-left: 1px solid grey;
+  border-left: 1px solid lightgrey;
+}
+.desktop-nav li a {
+  color: #49494a;
 }
 .search-bar h4 {
   margin: 25px 0px;
@@ -6792,4 +6795,25 @@ body {
 }
 .mobile-menu a i {
   margin-top: 15px;
+}
+.search-results {
+  border-top: 1px solid lightgrey;
+  padding-top: 5px;
+}
+.search-results .breadcrumb {
+  padding: 20px 0px;
+  margin-bottom: 0px;
+  background-color: #f8f8f8;
+}
+.search-results .breadcrumb a {
+  color: #49494a;
+  border-bottom: 1px solid black;
+}
+.search-results .breadcrumb a:hover {
+  color: #22cb96;
+  text-decoration: none;
+  border-bottom: 1px solid #22cb96;
+}
+.search-results .breadcrumb .active span {
+  color: black;
 }

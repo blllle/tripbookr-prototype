@@ -4,7 +4,7 @@
 @lightgrey:       #CACBC8;
 @darkgrey:        #49494A;
 @maingreen:       #22CB96;  
-
+@navbackground:   #f8f8f8;
 
 body {
   padding-top: 150px;
@@ -12,7 +12,7 @@ body {
 
 
 .main-logo {
-  border-right: 1px solid grey;
+  border-right: 1px solid lightgrey;
   h1 {
     margin: 15px 0px;
   }
@@ -27,10 +27,13 @@ body {
   li {
     text-align: center;
     padding: 7px 15px;
-    border-left: 1px solid grey; 
+    border-left: 1px solid lightgrey; 
+
+    a {
+      color: @darkgrey;
+    }
   }
 }
-
 
 .search-bar { 
   h4 {
@@ -43,6 +46,29 @@ body {
     color: @darkgrey;
     i {
       margin-top: 15px;
+    }
+  }
+}
+
+.search-results {
+  border-top: 1px solid lightgrey;
+  padding-top: 5px;
+
+  .breadcrumb {
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    background-color: @navbackground;
+    a {
+      color: @darkgrey;
+      border-bottom: 1px solid black;
+      &:hover {
+        color: @maingreen;
+        text-decoration: none;
+        border-bottom: 1px solid @maingreen;
+      }
+    }
+    .active span {
+      color: black;
     }
   }
 }
