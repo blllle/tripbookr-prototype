@@ -6765,7 +6765,7 @@ button.close {
   }
 }
 body {
-  padding-top: 175px;
+  padding-top: 175 px;
 }
 .main-logo {
   border-right: 1px solid lightgrey;
@@ -6818,7 +6818,7 @@ body {
   color: black;
 }
 .search .results {
-  padding-top: 20px;
+  padding: 20px;
 }
 .search .results h5 {
   margin: 0px;
@@ -6830,9 +6830,10 @@ body {
 .filter {
   border-right: 1px solid lightgrey;
   background-color: lightgrey;
+  padding: 12px;
 }
 .filter h4 {
-  margin: 13px 0px;
+  margin: 0px;
   cursor: pointer;
 }
 .filter h4 a {
