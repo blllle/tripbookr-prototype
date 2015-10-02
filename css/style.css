@@ -6810,7 +6810,7 @@ body {
 }
 .search .breadcrumb a {
   color: #49494a;
-  border-bottom: 1px dotted #49494a;
+  border-bottom: 1px dotted darkgrey;
 }
 .search .breadcrumb a:hover {
   color: #0085a3;
@@ -6880,6 +6880,11 @@ body {
 .filter-groups h5 {
   padding: 5px 0px;
 }
+.filter-groups a {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
 label {
   display: block;
 }
@@ -6895,18 +6900,24 @@ select {
 option {
   padding: 10px;
 }
-.booking-dates {
+.checkbox-inline {
+  margin-left: 10px;
+}
+.filter-options {
   padding: 10px;
 }
-.booking-dates .form-control {
+.filter-options .form-control {
   width: 100px;
 }
-.booking-guests {
+.filter-options-checkbox {
   padding: 10px;
 }
-.booking-guests .form-control {
+.filter-options-checkbox .form-control {
   width: 100px;
 }
-.booking-guests li {
-  padding: 10px 20px;
+.filter-options-checkbox label {
+  margin: 10px;
+}
+.filter-options-checkbox .checkbox-inline {
+  margin: 10px;
 }

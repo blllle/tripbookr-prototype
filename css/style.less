@@ -2,7 +2,7 @@
 
 
 @lightgrey:       #F3F3F3;
-@darkgrey:        #49494A;
+@darkgrey-links:  #49494A;
 @maingreen:       #0085A3;  
 @navbackground:   #f8f8f8;
 
@@ -35,7 +35,7 @@ body {
     border-left: 1px solid lightgrey; 
 
     a {
-      color: @darkgrey;
+      color: @darkgrey-links;
     }
   }
 }
@@ -48,7 +48,7 @@ body {
 
 .mobile-menu {
   a  {
-    color: @darkgrey;
+    color: @darkgrey-links;
     i {
       margin-top: 15px;
     }
@@ -65,8 +65,8 @@ body {
     background-color: @navbackground;
 
     a {
-      color: @darkgrey;
-      border-bottom: 1px dotted @darkgrey;
+      color: @darkgrey-links;
+      border-bottom: 1px dotted darkgrey;
       &:hover {
         color: @maingreen;
         text-decoration: none;
@@ -102,7 +102,7 @@ body {
     margin: 0px;
     cursor: pointer;
     a {
-      color: @darkgrey;
+      color: @darkgrey-links;
       text-decoration: none;
     }
   }
@@ -118,7 +118,7 @@ body {
 .sort-down {
   .tagline;
   a {
-    color: @darkgrey;
+    color: @darkgrey-links;
     text-decoration: none;
     cursor: pointer;
   } 
@@ -151,6 +151,11 @@ body {
   h5 {
     padding: 5px 0px;
   }
+  a {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 
@@ -174,8 +179,11 @@ option {
   padding: 10px;
 }
 
+.checkbox-inline {
+  margin-left: 10px;
+}
 
-.booking-dates {
+.filter-options {
   padding: 10px;
 
   .form-control {
@@ -183,10 +191,12 @@ option {
   }
 }
 
-.booking-guests {
-  .booking-dates;
-  li {
-    padding: 10px 20px;
+.filter-options-checkbox {
+  .filter-options;
+  label {
+    margin: 10px;
+  }
+  .checkbox-inline {
+    margin: 10px;
   }
 }
-
