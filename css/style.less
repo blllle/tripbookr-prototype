@@ -158,6 +158,44 @@ body {
   }
 }
 
+.fa-star{
+  color: gold;
+}
+
+.filter-apply {
+  .filter-groups;
+  background-color: white;
+  padding: 20px;
+}
+
+.btn-default {
+  width: 100%;
+  padding: 10px;
+  color: @darkgrey-links;
+
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #2e6da4;
+  background-color: @maingreen;
+
+  &:hover {
+    background-color: @maingreen;
+    color: white;
+    opacity: 0.7;
+  }
+  &:active {
+    color: white;
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .btn-primary {
+    margin-top: 15px;
+  }
+}
 
 label {
   display: block;

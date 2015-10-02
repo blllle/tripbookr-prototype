@@ -6885,6 +6885,48 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.fa-star {
+  color: gold;
+}
+.filter-apply {
+  border-bottom: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  background-color: #f3f3f3;
+  background-color: white;
+  padding: 20px;
+}
+.filter-apply h5 {
+  padding: 5px 0px;
+}
+.filter-apply a {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-default {
+  width: 100%;
+  padding: 10px;
+  color: #49494a;
+}
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #2e6da4;
+  background-color: #0085a3;
+}
+.btn-primary:hover {
+  background-color: #0085a3;
+  color: white;
+  opacity: 0.7;
+}
+.btn-primary:active {
+  color: white;
+}
+@media (max-width: 768px) {
+  .btn-primary {
+    margin-top: 15px;
+  }
+}
 label {
   display: block;
 }
