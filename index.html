@@ -74,26 +74,32 @@
             <h5><a href"#">Booking Dates<i class="fa fa-caret-down pull-right"></i></a></h5>
           </div>
           <div class="col-sm-12 booking-dates">
-            <form>
-              <ul class="list-inline">
-                <li><label>Check-In</label><input type="text" name="checkin"></li>
-                <li><label>Check-Out</label> <input type="text" name="checkout"></li>
-                <li>
-                  <label>Nights</label> 
-                  <select id="nights">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                  </select>
-                </li>
-              </ul>
-              <input type="checkbox" name="hidedates" value="nodates"> I don't know exact dates yet
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="exampleInputName2">Check In</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="DD/MM/YY">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail2">Check Out</label>
+                <input type="text" class="form-control" id="exampleInputEmail2" placeholder="DD/MM/YY">
+              </div>
+
+              <div class="form-group">
+                <label>Nights</label>
+                <select class="form-control">
+                  <option>1 Night</option>
+                  <option>2 Nights</option>
+                  <option>3 Nights</option>
+                  <option>4 Nights</option>
+                  <option>5 Nights</option>
+                </select>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">  I don't know exact dates yet
+                </label>
+              </div>
+
             </form>
           </div>
 
@@ -153,6 +159,18 @@
           <div class="col-sm-12 filter-groups">
             <h5><a href"#">Features / Amenities<i class="fa fa-caret-down pull-right"></i></a></h5>
           </div>
+          <div class="col-sm-12 booking-features">
+            <form>
+              <input type="checkbox" name="hidedates" value="">Wi-fi
+              <input type="checkbox" name="hidedates" value="">Pool
+              <input type="checkbox" name="hidedates" value="">Gym
+              <input type="checkbox" name="hidedates" value="">Bath
+              <input type="checkbox" name="hidedates" value="">Kitchen
+              <input type="checkbox" name="hidedates" value="">Smoking
+              <input type="checkbox" name="hidedates" value="">Breakfast
+              <input type="checkbox" name="hidedates" value="">Parking
+              <input type="checkbox" name="hidedates" value="">Select All
+            </form>
 
           <div class="col-sm-12 filter-apply">
             <button> Cancel </button>

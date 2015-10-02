@@ -6880,43 +6880,32 @@ body {
 .filter-groups h5 {
   padding: 5px 0px;
 }
+label {
+  display: block;
+}
+input {
+  margin: 5px 5px 10px 0px;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+select {
+  margin: 5px 5px 10px 0px;
+}
+option {
+  padding: 10px;
+}
 .booking-dates {
   padding: 10px;
 }
-.booking-dates li {
-  padding: 10px 5px;
-}
-.booking-dates label {
-  display: block;
-}
-.booking-dates input {
-  padding: 10px 0;
-  width: 120px;
-}
-.booking-dates input[type="checkbox"] {
-  width: auto;
-}
-.booking-dates option {
-  padding: 10px;
+.booking-dates .form-control {
+  width: 100px;
 }
 .booking-guests {
   padding: 10px;
 }
-.booking-guests li {
-  padding: 10px 5px;
-}
-.booking-guests label {
-  display: block;
-}
-.booking-guests input {
-  padding: 10px 0;
-  width: 120px;
-}
-.booking-guests input[type="checkbox"] {
-  width: auto;
-}
-.booking-guests option {
-  padding: 10px;
+.booking-guests .form-control {
+  width: 100px;
 }
 .booking-guests li {
   padding: 10px 20px;
