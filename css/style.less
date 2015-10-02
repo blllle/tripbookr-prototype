@@ -1,7 +1,7 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 
 
-@lightgrey:       #CACBC8;
+@lightgrey:       #F3F3F3;
 @darkgrey:        #49494A;
 @maingreen:       #0085A3;  
 @navbackground:   #f8f8f8;
@@ -146,7 +146,8 @@ body {
 
 .filter-groups {
   border-bottom: 1px solid darkgrey;
-  margin: -1px;
+  border-top: 1px solid darkgrey;
+  background-color: @lightgrey;
   h5 {
     padding: 5px 0px;
   }
@@ -154,15 +155,32 @@ body {
 
 .booking-dates {
   padding: 10px;
-  border-bottom: 1px solid darkgrey;
 
   li {
     padding: 10px 5px;
   }
 
+  label {
+    display: block;
+  }
+
   input {
+    padding: 10px 0;
+    width: 120px;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+  }
+  option {
     padding: 10px;
   }
 }
 
+.booking-guests {
+  .booking-dates;
+  li {
+    padding: 10px 20px;
+  }
+}
 

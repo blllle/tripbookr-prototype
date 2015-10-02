@@ -49,10 +49,10 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-5 col-md-4 col-lg-5 filter">
+        <div class="col-sm-5 col-md-4 filter">
           <h4><a href"#">Filter results <i class="fa fa-caret-down pull-right"></i></a></h4>
         </div>
-        <div class="col-sm-5 col-md-4 col-lg-5 hidden-xs tagline">
+        <div class="col-sm-5 col-md-4 col-lg-6 hidden-xs tagline">
           <p>dolor sit amet, consectetur adipisicing</p>
         </div> 
         <div class="col-sm-1 col-md-2 col-lg-1 text-center hidden-xs sort-down">
@@ -68,7 +68,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-5 col-md-4 col-lg-5 result-listing">
+      <div class="col-sm-5 col-md-4 result-listing">
         <div class="row">
           <div class="col-sm-12 filter-groups">
             <h5><a href"#">Booking Dates<i class="fa fa-caret-down pull-right"></i></a></h5>
@@ -76,30 +76,67 @@
           <div class="col-sm-12 booking-dates">
             <form>
               <ul class="list-inline">
-                <li><p>Check-In</p><input type="text" name="checkin"></li>
-                <li><p>Check-Out</p> <input type="text" name="checkout"></li>
-                <li><p>Nights</p> 
+                <li><label>Check-In</label><input type="text" name="checkin"></li>
+                <li><label>Check-Out</label> <input type="text" name="checkout"></li>
+                <li>
+                  <label>Nights</label> 
                   <select id="nights">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
-                    <option value="4">5</option>
-                    <option value="4">6</option>
-                    <option value="4">7</option>
-                    <option value="4">8</option>
-                    <option value="4">9</option>
-                    <option value="4">10</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
                   </select>
                 </li>
               </ul>
               <input type="checkbox" name="hidedates" value="nodates"> I don't know exact dates yet
             </form>
-
           </div>
 
           <div class="col-sm-12 filter-groups">
             <h5><a href"#">Guest<i class="fa fa-caret-down pull-right"></i></a></h5>
           </div>
+
+          <div class="col-sm-12 booking-guests">
+            <form>
+              <ul class="list-inline">
+                <li>
+                  <label>Adults</label> 
+                  <select id="adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 +</option>
+                  </select>
+                </li>
+                <li>
+                  <label>Children</label> 
+                  <select id="children">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 +</option>
+                  </select>
+                </li>
+                <li>
+                  <label>Rooms</label> 
+                  <select id="rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4 or more</option>
+                  </select>
+                </li>                
+              </ul>
+            </form>
+          </div>
+
 
           <div class="col-sm-12 filter-groups">
             <h5><a href"#">Price range per night<i class="fa fa-caret-down pull-right"></i></a></h5>
@@ -142,7 +179,7 @@
         </div>
       </div>
 
-      <div class="col-sm-7 col-md-8 col-lg-7 hidden-xs" style="background-color: lightblue">
+      <div class="col-sm-7 col-md-8 hidden-xs" style="background-color: lightblue">
         <h2>map content</h2>
       </div>
     </div>

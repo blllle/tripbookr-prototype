@@ -6874,18 +6874,50 @@ body {
 }
 .filter-groups {
   border-bottom: 1px solid darkgrey;
-  margin: -1px;
+  border-top: 1px solid darkgrey;
+  background-color: #f3f3f3;
 }
 .filter-groups h5 {
   padding: 5px 0px;
 }
 .booking-dates {
   padding: 10px;
-  border-bottom: 1px solid darkgrey;
 }
 .booking-dates li {
   padding: 10px 5px;
 }
+.booking-dates label {
+  display: block;
+}
 .booking-dates input {
+  padding: 10px 0;
+  width: 120px;
+}
+.booking-dates input[type="checkbox"] {
+  width: auto;
+}
+.booking-dates option {
   padding: 10px;
+}
+.booking-guests {
+  padding: 10px;
+}
+.booking-guests li {
+  padding: 10px 5px;
+}
+.booking-guests label {
+  display: block;
+}
+.booking-guests input {
+  padding: 10px 0;
+  width: 120px;
+}
+.booking-guests input[type="checkbox"] {
+  width: auto;
+}
+.booking-guests option {
+  padding: 10px;
+}
+.booking-guests li {
+  padding: 10px 20px;
 }
