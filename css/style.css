@@ -6930,12 +6930,7 @@ body {
 label {
   display: block;
 }
-input {
-  margin: 5px 5px 10px 0px;
-}
-input[type="checkbox"] {
-  width: auto;
-}
+input,
 select {
   margin: 5px 5px 10px 0px;
 }
@@ -6951,15 +6946,20 @@ option {
 .filter-options .form-control {
   width: 100px;
 }
-.filter-options-checkbox {
+.filter-checkbox {
   padding: 10px;
 }
-.filter-options-checkbox .form-control {
+.filter-checkbox .form-control {
   width: 100px;
 }
-.filter-options-checkbox label {
+.filter-checkbox label {
   margin: 10px;
 }
-.filter-options-checkbox .checkbox-inline {
+.filter-checkbox .checkbox-inline {
   margin: 10px;
+}
+@media (max-width: 768px) {
+  .filter-checkbox .checkbox-inline {
+    width: 25%;
+  }
 }

@@ -201,15 +201,7 @@ label {
   display: block;
 }
 
-input {
-  margin: 5px 5px 10px 0px;
-}
-
-input[type="checkbox"] {
-  width: auto;
-}
-
-select {
+input, select {
   margin: 5px 5px 10px 0px;
 }
 
@@ -221,20 +213,31 @@ option {
   margin-left: 10px;
 }
 
+
 .filter-options {
   padding: 10px;
-
   .form-control {
     width: 100px;
   }
 }
 
-.filter-options-checkbox {
+
+.filter-checkbox {
+  padding: 10px;
+
   .filter-options;
   label {
     margin: 10px;
   }
   .checkbox-inline {
     margin: 10px;
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .filter-checkbox {
+    .checkbox-inline {
+      width: 25%;
+    }
   }
 }
