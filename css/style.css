@@ -6937,6 +6937,9 @@ select {
 option {
   padding: 10px;
 }
+table {
+  width: 100%;
+}
 .checkbox-inline {
   margin-left: 10px;
 }
@@ -6957,9 +6960,4 @@ option {
 }
 .filter-checkbox .checkbox-inline {
   margin: 10px;
-}
-@media (max-width: 768px) {
-  .filter-checkbox .checkbox-inline {
-    width: 25%;
-  }
 }
