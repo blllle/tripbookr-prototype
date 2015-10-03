@@ -6872,6 +6872,19 @@ body {
 .hotel-listing img {
   width: 100%;
 }
+label {
+  display: block;
+}
+input,
+select {
+  margin: 5px 5px 10px 0px;
+}
+option {
+  padding: 10px;
+}
+table {
+  width: 100%;
+}
 .filter-groups {
   border-bottom: 1px solid darkgrey;
   border-top: 1px solid darkgrey;
@@ -6885,23 +6898,35 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.filter-options {
+  padding: 10px;
+}
+.filter-options .form-group {
+  margin-right: 20px;
+}
 .fa-star {
   color: gold;
+}
+.checkbox-inline {
+  margin-left: 10px;
+}
+.filter-checkbox {
+  padding: 10px;
+}
+.filter-checkbox .form-group {
+  margin-right: 20px;
+}
+.filter-checkbox label {
+  margin: 10px;
+}
+.filter-checkbox .checkbox-inline {
+  margin: 10px;
 }
 .filter-apply {
   border-bottom: 1px solid darkgrey;
   border-top: 1px solid darkgrey;
-  background-color: #f3f3f3;
   background-color: white;
   padding: 20px;
-}
-.filter-apply h5 {
-  padding: 5px 0px;
-}
-.filter-apply a {
-  color: grey;
-  text-decoration: none;
-  cursor: pointer;
 }
 .btn-default {
   width: 100%;
@@ -6926,38 +6951,4 @@ body {
   .btn-primary {
     margin-top: 15px;
   }
-}
-label {
-  display: block;
-}
-input,
-select {
-  margin: 5px 5px 10px 0px;
-}
-option {
-  padding: 10px;
-}
-table {
-  width: 100%;
-}
-.checkbox-inline {
-  margin-left: 10px;
-}
-.filter-options {
-  padding: 10px;
-}
-.filter-options .form-control {
-  width: 100px;
-}
-.filter-checkbox {
-  padding: 10px;
-}
-.filter-checkbox .form-control {
-  width: 100px;
-}
-.filter-checkbox label {
-  margin: 10px;
-}
-.filter-checkbox .checkbox-inline {
-  margin: 10px;
 }
